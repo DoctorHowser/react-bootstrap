@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { createBootstrapComponent } from './ThemeProvider';
+import { useBootstrapPrefix } from './ThemeProvider';
 
 class Table extends React.Component {
   static propTypes = {
